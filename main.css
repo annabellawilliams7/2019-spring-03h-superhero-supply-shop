@@ -8,8 +8,25 @@ Use flexbox to:
 */
 
 
+#nav {
+  display: flex;
+  flex-direction: row;
+}
 
+#gallery {
+  display: flex;
+  justify-content: center;
+}
 
+.sub-section img {
+  display: flex;
+  align-items: flex-start;
+}
+
+img/cape1.png {
+  display: flex;
+  align-items: stretch;
+}
 
 /*You don't need to change this unless you want to*/
 body {
